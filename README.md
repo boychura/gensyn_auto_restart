@@ -14,10 +14,10 @@ Fetch the gensyn_auto.sh helper and make it executable:
 This script monitors logs and restarts rl-swarm automatically on common runtime errors.  
 
 🐍 **3. Create a Virtual Environment**  
-Inside the rl-swarm directory, set up and activate a Python virtual environment:
-```python3 -m venv .venv```
-```source .venv/bin/activate```
-This isolates dependencies and ensures consistent runtime behavior.  
+Inside the rl-swarm directory, set up and activate a Python virtual environment:  
+```python3 -m venv .venv```  
+```source .venv/bin/activate```  
+This isolates dependencies and ensures consistent runtime behavior.   
 
 🚀 **4. Run the Auto-Restart Script**
 Once everything is set up, launch:  
