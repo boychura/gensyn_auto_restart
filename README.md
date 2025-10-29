@@ -9,15 +9,14 @@ This prevents deletion of temporary data between runs.
 
 📦 **2. Download and Enable the Auto-Restart Script**  
 Fetch the gensyn_auto.sh helper and make it executable:
-```wget -P ~/rl-swarm https://raw.githubusercontent.com/boychura/gensyn_auto_restart/refs/heads/main/gensyn_auto.sh  
-chmod +x ~/rl-swarm/gensyn_auto.sh```  
+```wget -P ~/rl-swarm https://raw.githubusercontent.com/boychura/gensyn_auto_restart/refs/heads/main/gensyn_auto.sh```
+```chmod +x ~/rl-swarm/gensyn_auto.sh```  
 This script monitors logs and restarts rl-swarm automatically on common runtime errors.  
 
 🐍 **3. Create a Virtual Environment**  
 Inside the rl-swarm directory, set up and activate a Python virtual environment:
-```python3 -m venv .venv  
-source .venv/bin/activate  
-```
+```python3 -m venv .venv```
+```source .venv/bin/activate```
 This isolates dependencies and ensures consistent runtime behavior.  
 
 🚀 **4. Run the Auto-Restart Script**
