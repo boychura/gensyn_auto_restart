@@ -8,8 +8,8 @@ Find the following line and comment it out (add # at the start):
 This prevents deletion of temporary data between runs.  
 
 📦 **2. Download and Enable the Auto-Restart Script**  
-Fetch the gensyn_auto.sh helper and make it executable:
-```wget -P ~/rl-swarm https://raw.githubusercontent.com/boychura/gensyn_auto_restart/refs/heads/main/gensyn_auto.sh```
+Fetch the gensyn_auto.sh helper and make it executable:  
+```wget -P ~/rl-swarm https://raw.githubusercontent.com/boychura/gensyn_auto_restart/refs/heads/main/gensyn_auto.sh```  
 ```chmod +x ~/rl-swarm/gensyn_auto.sh```  
 This script monitors logs and restarts rl-swarm automatically on common runtime errors.  
 
