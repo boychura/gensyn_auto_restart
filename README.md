@@ -19,7 +19,7 @@ Inside the rl-swarm directory, set up and activate a Python virtual environment:
 ```source .venv/bin/activate```  
 This isolates dependencies and ensures consistent runtime behavior.   
 
-🚀 **4. Run the Auto-Restart Script**
+🚀 **4. Run the Auto-Restart Script**  
 Once everything is set up, launch:  
 ```./gensyn_auto.sh```
 The script will start run_rl_swarm.sh and automatically handle restarts on detected errors like:  
